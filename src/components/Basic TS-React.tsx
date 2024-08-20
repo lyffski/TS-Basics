@@ -7,7 +7,7 @@ interface IInvoiceListProps {
 
 type InvoiceDataType = {
   customerName: string;
-  invoices: InvoiceType[];
+  invoices: InvoiceType[]; // so Improta Concept check web
 };
 
 type PaymentStatusType = "paid" | "pending" | "late";
